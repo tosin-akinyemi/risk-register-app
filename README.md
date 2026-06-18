@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Risk Register App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A healthcare compliance risk register built with React, inspired by real HIPAA and PIPEDA compliance work.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+[View Live App](https://resonant-croquembouche-84dba5.netlify.app)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was built to demonstrate practical knowledge of GRC (Governance, Risk and Compliance) concepts in a healthcare environment. It replicates the kind of risk tracking tool used during real compliance implementations — including work done on a HIPAA/PIPEDA-compliant GCP platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Add, edit and delete compliance risks
+- Automatic risk scoring (Severity x Likelihood)
+- Filter by severity and status
+- Summary dashboard — Total, Open, Critical and Resolved counts
+- Export full risk register to CSV
+- Colour-coded severity and status badges
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Risk Scoring
 
-### `npm run build`
+| Score | Level |
+|-------|-------|
+| 1-3 | Low |
+| 4-8 | Medium |
+| 9-12 | High |
+| 13-20 | Critical |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- JavaScript
+- CSS-in-JS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Compliance Context
 
-### `npm run eject`
+This app reflects real-world GRC workflows including:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HIPAA risk assessment requirements
+- PIPEDA privacy risk documentation
+- Risk register management with owners and remediation timelines
+- Audit-ready status tracking
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/tosin-akinyemi/risk-register-app.git
+cd risk-register-app
+npm install
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esther Akinyemi
+Privacy and Compliance Analyst | GRC Specialist
